@@ -1,0 +1,46 @@
+$hoge-font-size: 2em;
+
+html,
+body {
+  background-color: #f7f7f7;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 350px;
+  display: block;
+}
+
+li:nth-child(odd) {
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+
+li:nth-child(even) {
+  color: green;
+  text-decoration: underline;
+}
+
+.pageTitle {
+  font-size: $hoge-font-size;
+  color: #4c4c4c;
+}
